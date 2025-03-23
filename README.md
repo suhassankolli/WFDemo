@@ -1,10 +1,10 @@
 Environment setup:
-conda create -n env_langchain1 python=3.10  
-	conda activate env_langchain1
-	python -m pip install --upgrade pip
-	Install packages:
-	pip install -r requirements.txt
+conda create -p venvWFDemo python=3.10
+conda activate venvWFDemo/
+python -m pip install --upgrade pip
+Install packages:
+pip install -r requirements.txt
 
 
-Create a .env folder and add the following
-GOOGLE_API_KEY="your Google API key"
+Create a .env file at the root (under WFDemo) and add the following in the file
+GOOGLE_API_KEY="your Google Gemini 1.5 pro API key"
