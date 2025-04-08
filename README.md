@@ -12,5 +12,5 @@ Install packages:
 pip install -r requirements.txt
 
 ### API Keys
-Create a .env file at the root (under WFDemo) and add the following in the file
-GOOGLE_API_KEY="your Google Gemini 1.5 pro API key"
+1. Create a .env file at the root (under WFDemo)
+2. add the following in the file - GOOGLE_API_KEY="your Google Gemini 1.5 pro API key"
