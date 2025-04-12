@@ -4,6 +4,10 @@ langchain-google-genai
 langchain-huggingface
 langchain_experimental
 langchain_chroma
+ langchain-openai
+langgraph
+langgraph-supervisor
+langchain-ollama
 langchainhub
 pypdf
 ipykernel
