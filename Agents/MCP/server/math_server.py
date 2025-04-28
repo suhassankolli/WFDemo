@@ -4,7 +4,7 @@ mcp = FastMCP("Math")
 
 @mcp.tool()
 def add(a:int, b:int)-> int:
-    "add two numbers"
+    """add two numbers"""
     return a+b
 
 @mcp.tool()
